@@ -95,7 +95,7 @@ function App() {
       Loader(messageDiv)
     }
 
-    const response = await fetch('https://codex-im0y.onrender.com/', {
+    const response = await fetch('http://localhost:5000/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
