@@ -95,7 +95,7 @@ function App() {
       Loader(messageDiv)
     }
 
-    const response = await fetch('https://codex-im0y.onrender.com/', {
+    const response = await fetch('https://my-gpt-server.onrender.com/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
